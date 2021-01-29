@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "fullcalendar-tests",
+  "name": "fullcalendar-lw-tests",
   "version": "0.0.0",
   "dependencies": {
     "@fullcalendar-lw/bootstrap": "workspace:~5.5.0",

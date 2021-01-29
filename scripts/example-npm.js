@@ -14,7 +14,7 @@ if (!projName) {
 }
 
 let projDir = path.join(exDir, projName)
-let fcPkgRootDir = path.join(projDir, 'node_modules', '@fullcalendar')
+let fcPkgRootDir = path.join(projDir, 'node_modules', '@fullcalendar-lw')
 
 function resetFcPkgs(pkgNameToLocationHash) {
   let fcPkgShortNames = globby.sync('*', { cwd: fcPkgRootDir, onlyFiles: false })

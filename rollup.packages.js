@@ -165,7 +165,6 @@ module.exports = [
       },
       plugins: [
         fixDtsCodeIn(),
-        ensurePremiumCommonAmbient(),
         externalizeVDom(''),
         externalizeStylesheets(),
         externalizeNonRelative(),
@@ -217,18 +216,6 @@ function externalizeVDom(addExtension) {
     }
   }
 }
-
-
-function ensurePremiumCommonAmbient() {
-  return {
-    resolveId(id) {
-      if (id === '@fullcalendar-lw/premium-common') {
-        return { id, external: true, moduleSideEffects: true }
-      }
-    }
-  }
-}
-
 
 function fixDtsCodeIn() {
   return {

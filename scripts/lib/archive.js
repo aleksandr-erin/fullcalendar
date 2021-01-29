@@ -15,7 +15,7 @@ module.exports = parallel(
 
 function writeStandardArchive() {
   return writeArchive({
-    archiveName: 'fullcalendar',
+    archiveName: 'fullcalendar-lw',
     bundleDir: 'packages/bundle',
     exampleHtmlFiles: [
       '*.html',

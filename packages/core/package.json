@@ -1,10 +1,10 @@
 {
   "name": "@fullcalendar-lw/core",
-  "version": "5.5.1",
+  "version": "5.5.1-3",
   "title": "FullCalendar Core Package",
   "description": "Provides core functionality, including the Calendar class",
   "dependencies": {
-    "@fullcalendar-lw/common": "workspace:~5.5.0",
+    "@fullcalendar-lw/common": "workspace:5.5.1-3",
     "preact": "^10.0.5",
     "tslib": "^2.0.3"
   },

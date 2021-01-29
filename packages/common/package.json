@@ -1,6 +1,6 @@
 {
   "name": "@fullcalendar-lw/common",
-  "version": "5.5.1",
+  "version": "5.5.1-3",
   "title": "FullCalendar Common",
   "description": "internal package",
   "dependencies": {

@@ -1,4 +1,4 @@
-import { ThirdPartyDraggable } from '@fullcalendar/interaction'
+import { ThirdPartyDraggable } from '@fullcalendar-lw/interaction'
 import { testEventDrag } from '../lib/dnd-resize-utils'
 import 'components-jqueryui' // for .sortable and .draggable
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'

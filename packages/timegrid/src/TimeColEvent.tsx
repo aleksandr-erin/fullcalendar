@@ -1,4 +1,4 @@
-import { createElement, StandardEvent, BaseComponent, MinimalEventProps, createFormatter } from '@fullcalendar/common'
+import { createElement, StandardEvent, BaseComponent, MinimalEventProps, createFormatter } from '@fullcalendar-lw/common'
 
 const DEFAULT_TIME_FORMAT = createFormatter({
   hour: 'numeric',

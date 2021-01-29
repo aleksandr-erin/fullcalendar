@@ -1,10 +1,9 @@
 {
   "private": true,
-  "name": "@fullcalendar/core-preact",
+  "name": "@fullcalendar-lw/core-preact",
   "version": "5.5.0",
   "title": "FullCalendar Core-Preact Package",
   "description": "Internal package",
-  "docs": "https://fullcalendar.io/docs",
   "dependencies": {
     "preact": "^10.0.5",
     "tslib": "^2.0.3"
@@ -12,12 +11,10 @@
   "main": "tsc/vdom.js",
   "types": "tsc/vdom.d.ts",
   "sideEffects": true,
-  "homepage": "https://fullcalendar.io/",
-  "bugs": "https://fullcalendar.io/reporting-bugs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar.git",
-    "homepage": "https://github.com/fullcalendar/fullcalendar"
+    "url": "https://github.com/aleksandr-erin/fullcalendar.git",
+    "homepage": "https://github.com/aleksandr-erin/fullcalendar"
   },
   "license": "MIT",
   "author": {

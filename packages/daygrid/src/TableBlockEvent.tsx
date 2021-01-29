@@ -1,4 +1,4 @@
-import { createElement, StandardEvent, BaseComponent, MinimalEventProps } from '@fullcalendar/common'
+import { createElement, StandardEvent, BaseComponent, MinimalEventProps } from '@fullcalendar-lw/common'
 import { DEFAULT_TABLE_EVENT_TIME_FORMAT } from './event-rendering'
 
 export interface TableBlockEventProps extends MinimalEventProps {

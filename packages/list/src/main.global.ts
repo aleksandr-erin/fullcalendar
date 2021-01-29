@@ -1,4 +1,4 @@
-import { globalPlugins } from '@fullcalendar/common'
+import { globalPlugins } from '@fullcalendar-lw/common'
 import plugin from './main'
 
 globalPlugins.push(plugin)

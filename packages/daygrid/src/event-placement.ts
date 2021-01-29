@@ -6,7 +6,7 @@ import {
   addDays,
   intersectRanges,
   DateMarker,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TableSeg } from './TableSeg'
 import { TableCellModel } from './TableCell'
 

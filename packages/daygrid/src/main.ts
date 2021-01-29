@@ -1,4 +1,4 @@
-import { createPlugin } from '@fullcalendar/common'
+import { createPlugin } from '@fullcalendar-lw/common'
 import { DayTableView } from './DayTableView'
 import { TableDateProfileGenerator } from './TableDateProfileGenerator'
 import { OPTION_REFINERS } from './options'

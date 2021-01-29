@@ -1,6 +1,6 @@
-import dayGridPlugin from '@fullcalendar/daygrid'
-import rrulePlugin from '@fullcalendar/rrule'
-import luxonPlugin from '@fullcalendar/luxon'
+import dayGridPlugin from '@fullcalendar-lw/daygrid'
+import rrulePlugin from '@fullcalendar-lw/rrule'
+import luxonPlugin from '@fullcalendar-lw/luxon'
 import { parseUtcDate, parseLocalDate } from '../lib/date-parsing'
 
 describe('rrule plugin', () => {

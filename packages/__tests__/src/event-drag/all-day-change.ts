@@ -1,4 +1,4 @@
-import { parseMarker, addMs } from '@fullcalendar/core'
+import { parseMarker, addMs } from '@fullcalendar-lw/core'
 import { drag } from '../lib/EventDragUtils'
 import { TimeGridViewWrapper } from '../lib/wrappers/TimeGridViewWrapper'
 import { intersectRects } from '../lib/geom'

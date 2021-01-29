@@ -1,9 +1,8 @@
 {
-  "name": "@fullcalendar/common",
+  "name": "@fullcalendar-lw/common",
   "version": "5.5.1",
   "title": "FullCalendar Common",
   "description": "internal package",
-  "docs": "https://fullcalendar.io/docs",
   "dependencies": {
     "ical.js": "^1.4.0",
     "tslib": "^2.0.3"
@@ -11,12 +10,10 @@
   "main": "main.cjs.js",
   "module": "main.js",
   "types": "main.d.ts",
-  "homepage": "https://fullcalendar.io/",
-  "bugs": "https://fullcalendar.io/reporting-bugs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar.git",
-    "homepage": "https://github.com/fullcalendar/fullcalendar"
+    "url": "https://github.com/aleksandr-erin/fullcalendar.git",
+    "homepage": "https://github.com/aleksandr-erin/fullcalendar"
   },
   "license": "MIT",
   "author": {
@@ -25,6 +22,6 @@
     "url": "http://arshaw.com/"
   },
   "devDependencies": {
-    "@fullcalendar/core-preact": "workspace:*"
+    "@fullcalendar-lw/core-preact": "workspace:*"
   }
 }

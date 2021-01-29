@@ -1,4 +1,4 @@
-import frLocale from '@fullcalendar/core/locales/fr'
+import frLocale from '@fullcalendar-lw/core/locales/fr'
 import { DayGridViewWrapper } from '../lib/wrappers/DayGridViewWrapper'
 
 describe('moreLinkText', () => { // TODO: rename file

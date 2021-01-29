@@ -7,8 +7,8 @@ import {
   diffWholeDays,
   diffDayAndTime,
   Calendar,
-} from '@fullcalendar/core'
-import dayGridPlugin from '@fullcalendar/daygrid'
+} from '@fullcalendar-lw/core'
+import dayGridPlugin from '@fullcalendar-lw/daygrid'
 import { getDSTDeadZone } from '../lib/dst-dead-zone'
 import { formatPrettyTimeZoneOffset, formatIsoTimeZoneOffset, formatIsoWithoutTz } from '../lib/datelib-utils'
 

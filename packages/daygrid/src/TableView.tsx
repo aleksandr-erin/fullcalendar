@@ -14,7 +14,7 @@ import {
   getStickyFooterScrollbar,
   ChunkConfigRowContent,
   Dictionary,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 
 /* An abstract class for the daygrid views, as well as month view. Renders one or more rows of day cells.
 ----------------------------------------------------------------------------------------------------------------------*/

@@ -1,4 +1,4 @@
-import { createPlugin, EventSourceDef, addDays, DateEnv, requestJson, Dictionary } from '@fullcalendar/common'
+import { createPlugin, EventSourceDef, addDays, DateEnv, requestJson, Dictionary } from '@fullcalendar-lw/common'
 import { OPTION_REFINERS } from './options-refiners'
 import './options-declare'
 import { EVENT_SOURCE_REFINERS } from './event-source-refiners'

@@ -1,11 +1,10 @@
 {
-  "name": "@fullcalendar/icalendar",
+  "name": "@fullcalendar-lw/icalendar",
   "version": "5.5.1",
   "title": "FullCalendar iCalendar Plugin",
   "description": "Fetch events from a public iCalendar / .ics feed",
-  "docs": "https://fullcalendar.io/docs/icalendar",
   "dependencies": {
-    "@fullcalendar/common": "workspace:~5.5.0",
+    "@fullcalendar-lw/common": "workspace:~5.5.0",
     "ical.js": "^1.4.0",
     "tslib": "^2.0.3"
   },
@@ -14,12 +13,10 @@
   "types": "main.d.ts",
   "jsdelivr": "main.global.min.js",
   "browserGlobal": "FullCalendarICalendar",
-  "homepage": "https://fullcalendar.io/",
-  "bugs": "https://fullcalendar.io/reporting-bugs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar.git",
-    "homepage": "https://github.com/fullcalendar/fullcalendar"
+    "url": "https://github.com/aleksandr-erin/fullcalendar.git",
+    "homepage": "https://github.com/aleksandr-erin/fullcalendar"
   },
   "license": "MIT",
   "author": {

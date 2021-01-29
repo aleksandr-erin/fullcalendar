@@ -1,4 +1,4 @@
-import { intersectRanges, DateRange, Slicer } from '@fullcalendar/common'
+import { intersectRanges, DateRange, Slicer } from '@fullcalendar-lw/common'
 import { TimeColsSeg } from './TimeColsSeg'
 
 export class DayTimeColsSlicer extends Slicer<TimeColsSeg, [DateRange[]]> {

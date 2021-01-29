@@ -1,4 +1,4 @@
-import { findElements, Calendar } from '@fullcalendar/core'
+import { findElements, Calendar } from '@fullcalendar-lw/core'
 import { ViewWrapper } from './ViewWrapper'
 import { formatIsoDay } from '../datelib-utils'
 

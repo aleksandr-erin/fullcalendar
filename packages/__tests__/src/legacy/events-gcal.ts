@@ -1,5 +1,5 @@
-import googleCalendarPlugin from '@fullcalendar/google-calendar'
-import dayGridPlugin from '@fullcalendar/daygrid'
+import googleCalendarPlugin from '@fullcalendar-lw/google-calendar'
+import dayGridPlugin from '@fullcalendar-lw/daygrid'
 import { DayGridViewWrapper } from '../lib/wrappers/DayGridViewWrapper'
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'
 

@@ -1,5 +1,5 @@
-import bootstrapPlugin from '@fullcalendar/bootstrap'
-import dayGridPlugin from '@fullcalendar/daygrid'
+import bootstrapPlugin from '@fullcalendar-lw/bootstrap'
+import dayGridPlugin from '@fullcalendar-lw/daygrid'
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'
 
 describe('theme switching', () => {

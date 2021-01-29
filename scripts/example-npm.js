@@ -26,7 +26,7 @@ function resetFcPkgs(pkgNameToLocationHash) {
     )
 
     if (pkgNameToLocationHash) {
-      let fcPkgName = `@fullcalendar/${fcPkgShortName}`
+      let fcPkgName = `@fullcalendar-lw/${fcPkgShortName}`
       let fcPkgLocation = pkgNameToLocationHash[fcPkgName]
 
       if (!fcPkgLocation) {
@@ -41,7 +41,7 @@ function resetFcPkgs(pkgNameToLocationHash) {
   }
 }
 
-resetFcPkgs() // deletes all @fullcalendar/* packages
+resetFcPkgs() // deletes all @fullcalendar-lw/* packages
 
 exec.sync(
   'npm install',

@@ -22,7 +22,7 @@ import {
   NowTimer,
   DateMarker,
   NowIndicatorRoot,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { AllDaySplitter } from './AllDaySplitter'
 import { TimeSlatMeta } from './time-slat-meta'
 import { TimeColsSlatsCoords } from './TimeColsSlatsCoords'

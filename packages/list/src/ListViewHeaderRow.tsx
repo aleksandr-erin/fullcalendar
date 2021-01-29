@@ -1,7 +1,7 @@
 import {
   BaseComponent, DateMarker, createElement, DateRange, getDateMeta,
   RenderHook, buildNavLinkData, DayHeaderContentArg, getDayClassNames, formatDayString, Fragment,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 
 export interface ListViewHeaderRowProps {
   dayDate: DateMarker

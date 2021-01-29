@@ -1,4 +1,4 @@
-import { Emitter } from '@fullcalendar/core'
+import { Emitter } from '@fullcalendar-lw/core'
 
 describe('emitter', () => {
   it('calls a handler', () => {

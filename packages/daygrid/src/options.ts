@@ -1,4 +1,4 @@
-import { identity, Identity, ClassNamesGenerator, CustomContentGenerator, DidMountHandler, WillUnmountHandler } from '@fullcalendar/common'
+import { identity, Identity, ClassNamesGenerator, CustomContentGenerator, DidMountHandler, WillUnmountHandler } from '@fullcalendar-lw/common'
 
 // public
 import {

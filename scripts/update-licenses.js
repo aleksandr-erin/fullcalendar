@@ -29,6 +29,4 @@ for (let licenseDest of licenseDests) {
   )
 }
 
-exec([ 'git', 'commit', '-m', 'updated licenses' ], { cwd: path.join(__dirname, '../packages-premium') })
-exec([ 'git', 'add', 'packages-premium' ], { cwd: path.join(__dirname, '..') })
 exec([ 'git', 'commit', '-m', 'updated licenses' ], { cwd: path.join(__dirname, '..') })

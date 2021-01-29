@@ -8,7 +8,7 @@ import {
   createPlugin,
   parseMarker,
   DateInput,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { RRULE_EVENT_REFINERS, RRuleInputObject } from './event-refiners'
 import './event-declare'
 

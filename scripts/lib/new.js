@@ -1,7 +1,6 @@
 const fs = require('fs')
 const path = require('path')
 const rootPkgConfig = require('../../package.json')
-const premiumPkgConfig = require('../../packages-premium/package.json')
 
 
 exports.checkNoSymlinks = checkNoSymlinks
@@ -33,8 +32,8 @@ function removeExt(path) {
 
 // TODO: adapt this for each package
 function buildBanner(isPremium) {
-  let title = isPremium ? premiumPkgConfig.title : rootPkgConfig.title
-  let homepage = isPremium ? premiumPkgConfig.homepage : rootPkgConfig.homepage
+  let title = rootPkgConfig.title
+  let homepage = rootPkgConfig.homepage
   let { version, copyright } = rootPkgConfig
 
   return `/*!

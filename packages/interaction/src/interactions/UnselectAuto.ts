@@ -3,7 +3,7 @@ import {
   PointerDragEvent,
   elementClosest,
   CalendarContext,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { PointerDragging } from '../dnd/PointerDragging'
 import { EventDragging } from './EventDragging'
 

@@ -1,4 +1,4 @@
-import enGbLocale from '@fullcalendar/core/locales/en-gb'
+import enGbLocale from '@fullcalendar-lw/core/locales/en-gb'
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'
 
 describe('eventTimeFormat', () => {

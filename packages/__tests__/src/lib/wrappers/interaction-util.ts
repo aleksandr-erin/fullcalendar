@@ -1,5 +1,5 @@
-import { Calendar } from '@fullcalendar/core'
-import '@fullcalendar/interaction' // what!?
+import { Calendar } from '@fullcalendar-lw/core'
+import '@fullcalendar-lw/interaction' // what!?
 
 export function waitEventDrag(calendar: Calendar, dragging: Promise<any>) {
   return new Promise<any>((resolve) => {

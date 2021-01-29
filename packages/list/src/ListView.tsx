@@ -23,7 +23,7 @@ import {
   DateComponent,
   ViewApi,
   MountArg,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { ListViewHeaderRow } from './ListViewHeaderRow'
 import { ListViewEventRow } from './ListViewEventRow'
 

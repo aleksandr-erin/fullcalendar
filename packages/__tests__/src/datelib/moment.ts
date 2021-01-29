@@ -1,7 +1,7 @@
-import { Calendar } from '@fullcalendar/core'
-import momentPlugin, { toMoment, toMomentDuration } from '@fullcalendar/moment'
-import dayGridPlugin from '@fullcalendar/daygrid'
-import timeGridPlugin from '@fullcalendar/timegrid'
+import { Calendar } from '@fullcalendar-lw/core'
+import momentPlugin, { toMoment, toMomentDuration } from '@fullcalendar-lw/moment'
+import dayGridPlugin from '@fullcalendar-lw/daygrid'
+import timeGridPlugin from '@fullcalendar-lw/timegrid'
 import 'moment/locale/es' // only test spanish
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'
 import { TimeGridViewWrapper } from '../lib/wrappers/TimeGridViewWrapper'

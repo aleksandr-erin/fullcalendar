@@ -1,4 +1,4 @@
-import { Seg, DateMarker, buildSegCompareObj, compareByFieldSpecs, sortEventSegs, OrderSpec, EventApi } from '@fullcalendar/common'
+import { Seg, DateMarker, buildSegCompareObj, compareByFieldSpecs, sortEventSegs, OrderSpec, EventApi } from '@fullcalendar-lw/common'
 import { TimeColsSlatsCoords } from './TimeColsSlatsCoords'
 
 // UNFORTUNATELY, assigns results to the top/bottom/level/forwardCoord/backwardCoord props of the actual segs.

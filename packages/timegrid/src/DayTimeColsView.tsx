@@ -6,8 +6,8 @@ import {
   DayTableModel,
   memoize,
   ChunkContentCallbackArgs,
-} from '@fullcalendar/common'
-import { DayTable } from '@fullcalendar/daygrid'
+} from '@fullcalendar-lw/common'
+import { DayTable } from '@fullcalendar-lw/daygrid'
 import { TimeColsView } from './TimeColsView'
 import { DayTimeCols } from './DayTimeCols'
 import { buildSlatMetas } from './time-slat-meta'

@@ -1,7 +1,7 @@
 
 /*
 Fix for compiling the angular project's tests, using PnP simulation, which inline FullCalendar's packages' CSS.
-The build process has postcss running, which crawls up the dir structure when including @fullcalendar/(daygrid|common)/main.css,
+The build process has postcss running, which crawls up the dir structure when including @fullcalendar-lw/(daygrid|common)/main.css,
 only to find this postcss config file.
 */
 if (process.env.npm_package_name === 'fullcalendar-angular-workspace') {

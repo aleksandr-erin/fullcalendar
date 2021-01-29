@@ -18,7 +18,7 @@ import {
   DateProfile,
   Fragment,
   createRef,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TableSeg, splitSegsByRow, splitInteractionByRow } from './TableSeg'
 import { TableRow } from './TableRow'
 import { TableCellModel, MoreLinkArg } from './TableCell'

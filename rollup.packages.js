@@ -31,7 +31,7 @@ for (let struct of publicPackageStructs) {
   }
 }
 
-browserGlobalByPkg['@fullcalendar/common'] = 'FullCalendar'
+browserGlobalByPkg['@fullcalendar-lw/common'] = 'FullCalendar'
 
 const THIRD_PARTY_BROWSER_GLOBALS = {
   // preact: 'Preact', // we actually want this inlined
@@ -43,7 +43,7 @@ const THIRD_PARTY_BROWSER_GLOBALS = {
 }
 let allGlobals = { ...THIRD_PARTY_BROWSER_GLOBALS, ...browserGlobalByPkg }
 let externalList = Object.keys(allGlobals)
-let externalListNoCommon = externalList.filter((name) => name !== '@fullcalendar/common')
+let externalListNoCommon = externalList.filter((name) => name !== '@fullcalendar-lw/common')
 let aliasMap = buildAliasMap(publicPackageStructs)
 
 
@@ -92,7 +92,7 @@ module.exports = [
     }
   }),
 
-  // vdom from @fullcalendar/core-preact
+  // vdom from @fullcalendar-lw/core-preact
   {
     input: 'packages/core/tsc/vdom.js',
     output: [
@@ -107,7 +107,7 @@ module.exports = [
       }
     ],
     plugins: [
-      externalizeNonRelative('@fullcalendar/core-preact'),
+      externalizeNonRelative('@fullcalendar-lw/core-preact'),
       nodeResolve()
     ]
   },
@@ -125,7 +125,7 @@ module.exports = [
       }
     ],
     plugins: [
-      externalizeNonRelative('@fullcalendar/core-preact'),
+      externalizeNonRelative('@fullcalendar-lw/core-preact'),
       nodeResolve()
     ]
   },
@@ -134,7 +134,7 @@ module.exports = [
   ...pkgsWithBrowserGlobal.map((struct) => {
     return {
       input: path.join(struct.dir, struct.mainGlobalTscJs),
-      external: struct.name === '@fullcalendar/core' ? externalListNoCommon : externalList, // if core, inline common
+      external: struct.name === '@fullcalendar-lw/core' ? externalListNoCommon : externalList, // if core, inline common
       output: {
         format: 'iife',
         name: struct.meta.browserGlobal,
@@ -146,7 +146,7 @@ module.exports = [
       plugins: [ // same plugins that rollup.bundle.js uses
         removeStylesheetImports(),
         alias({
-          entries: aliasMap // TODO: for packages like @fullcalendar/common which will be inlined
+          entries: aliasMap // TODO: for packages like @fullcalendar-lw/common which will be inlined
         }),
         nodeResolve(), // for tslib
         injectReleaseDateAndVersion()
@@ -211,7 +211,7 @@ function externalizeVDom(addExtension) {
         ) {
           return { id: './vdom' + (addExtension || ''), external: true, moduleSideEffects: true }
         } else {
-          return { id: '@fullcalendar/common', external: true, moduleSideEffects: true }
+          return { id: '@fullcalendar-lw/common', external: true, moduleSideEffects: true }
         }
       }
     }
@@ -222,7 +222,7 @@ function externalizeVDom(addExtension) {
 function ensurePremiumCommonAmbient() {
   return {
     resolveId(id) {
-      if (id === '@fullcalendar/premium-common') {
+      if (id === '@fullcalendar-lw/premium-common') {
         return { id, external: true, moduleSideEffects: true }
       }
     }
@@ -241,7 +241,7 @@ function fixDtsCodeIn() {
     */
     resolveId(id, importer) {
       if (importer && id.match('packages/common')) {
-        return { id: '@fullcalendar/common', external: true }
+        return { id: '@fullcalendar-lw/common', external: true }
       }
     }
   }
@@ -257,13 +257,13 @@ function fixDtsCodeOut() {
 
       /*
       tsc, for classes that have superclasses with getter methods, sometimes reference the return type like this:
-        import("@fullcalendar/common/tsc/whatever").Something
-      (and this is from WITHIN the @fullcalendar/common package)
+        import("@fullcalendar-lw/common/tsc/whatever").Something
+      (and this is from WITHIN the @fullcalendar-lw/common package)
       possible BUG with this hack: playing weird with TS triple-slash references
       relevant tickets:
         https://github.com/microsoft/TypeScript/issues/38111 - "Declaration emit reveals paths within dependency that were not referred to in the source file"
       */
-      code = code.replace(/(['"]@fullcalendar\/[^'"]+)\/[^'"]+(['"])/g, function(m0, m1, m2) {
+      code = code.replace(/(['"]@fullcalendar-lw\/[^'"]+)\/[^'"]+(['"])/g, function(m0, m1, m2) {
         return m1 + m2
       })
 

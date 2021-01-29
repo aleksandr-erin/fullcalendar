@@ -2,7 +2,7 @@ import {
   Ref, DateMarker, BaseComponent, createElement, EventSegUiInteractionState, Seg, getSegMeta,
   DateRange, Fragment, DayCellRoot, NowIndicatorRoot, BgEvent, renderFill,
   DateProfile, config, buildEventRangeKey, sortEventSegs,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TimeColsSeg } from './TimeColsSeg'
 import { TimeColsSlatsCoords } from './TimeColsSlatsCoords'
 import { computeSegCoords, computeSegVerticals } from './event-placement'

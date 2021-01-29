@@ -1,4 +1,4 @@
-import { DayTableModel, DateRange, Slicer } from '@fullcalendar/common'
+import { DayTableModel, DateRange, Slicer } from '@fullcalendar-lw/common'
 import { TableSeg } from './TableSeg'
 
 export class DayTableSlicer extends Slicer<TableSeg, [DayTableModel]> {

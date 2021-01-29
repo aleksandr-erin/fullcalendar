@@ -1,7 +1,7 @@
 import {
   MinimalEventProps, BaseComponent, ViewContext, createElement, AllDayContentArg,
   Seg, isMultiDayRange, DateFormatter, buildSegTimeText, createFormatter, EventContentArg, EventRoot, ComponentChildren, RenderHook,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 
 const DEFAULT_TIME_FORMAT = createFormatter({
   hour: 'numeric',

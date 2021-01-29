@@ -1,7 +1,7 @@
-import { Calendar } from '@fullcalendar/core'
-import interactionPlugin, { ThirdPartyDraggable } from '@fullcalendar/interaction'
-import dayGridPlugin from '@fullcalendar/daygrid'
-import timeGridPlugin from '@fullcalendar/timegrid'
+import { Calendar } from '@fullcalendar-lw/core'
+import interactionPlugin, { ThirdPartyDraggable } from '@fullcalendar-lw/interaction'
+import dayGridPlugin from '@fullcalendar-lw/daygrid'
+import timeGridPlugin from '@fullcalendar-lw/timegrid'
 import { ListenerCounter } from '../lib/ListenerCounter'
 import 'components-jqueryui' // for .sortable and .draggable
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'

@@ -9,14 +9,13 @@ const { promisifyVinyl } = require('./util')
 assumes everything already built
 */
 module.exports = parallel(
-  writeStandardArchive,
-  writePremiumArchive
+  writeStandardArchive
 )
 
 
 function writeStandardArchive() {
   return writeArchive({
-    archiveName: 'fullcalendar',
+    archiveName: 'fullcalendar-lw',
     bundleDir: 'packages/bundle',
     exampleHtmlFiles: [
       '*.html',
@@ -35,32 +34,6 @@ function writeStandardArchive() {
     ]
   })
 }
-
-
-/*
-TODO: for examples, instead of looking for (resource|timeline) in the filename,
-leverage whether the html file includes packages-premium/bundle or not.
-*/
-function writePremiumArchive() {
-  return writeArchive({
-    archiveName: 'fullcalendar-scheduler',
-    bundleDir: 'packages-premium/bundle',
-    exampleHtmlFiles: [
-      '*+(resource|timeline)*.html',
-      'timegrid-views-hscroll.html', // TEMPORARY. TODO: exclude this file from non-premium
-      '!_*.html'
-    ],
-    exampleOtherFiles: [
-      'js/*',
-      'json/*'
-    ],
-    topLevelFiles: [
-      'packages-premium/README.md',
-      'packages-premium/LICENSE.md'
-    ]
-  })
-}
-
 
 function writeArchive(options) {
   let version = require(path.join(process.cwd(), 'package.json')).version

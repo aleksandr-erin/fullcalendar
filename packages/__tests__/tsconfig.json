@@ -5,8 +5,8 @@
     "outDir": "tsc",
     "baseUrl": "../..",
     "paths": {
-      "@fullcalendar/core/locales/*": [ "packages/core/src/locales/*" ],
-      "@fullcalendar/core/locales-all": [ "packages/core/src/locales-all" ]
+      "@fullcalendar-lw/core/locales/*": [ "packages/core/src/locales/*" ],
+      "@fullcalendar-lw/core/locales-all": [ "packages/core/src/locales-all" ]
     }
   },
   "include": [

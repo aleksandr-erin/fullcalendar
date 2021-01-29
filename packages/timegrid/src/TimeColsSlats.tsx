@@ -7,7 +7,7 @@ import {
   createRef,
   PositionCache,
   DateProfile,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TimeSlatMeta } from './time-slat-meta'
 import { TimeColsSlatsCoords } from './TimeColsSlatsCoords'
 import { TimeColsSlatsBody } from './TimeColsSlatsBody'

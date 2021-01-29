@@ -14,7 +14,7 @@ if (!projName) {
 }
 
 let projDir = path.join(exDir, projName)
-let fcPkgRootDir = path.join(projDir, 'node_modules', '@fullcalendar')
+let fcPkgRootDir = path.join(projDir, 'node_modules', '@fullcalendar-lw')
 
 function resetFcPkgs(pkgNameToLocationHash) {
   let fcPkgShortNames = globby.sync('*', { cwd: fcPkgRootDir, onlyFiles: false })
@@ -26,7 +26,7 @@ function resetFcPkgs(pkgNameToLocationHash) {
     )
 
     if (pkgNameToLocationHash) {
-      let fcPkgName = `@fullcalendar/${fcPkgShortName}`
+      let fcPkgName = `@fullcalendar-lw/${fcPkgShortName}`
       let fcPkgLocation = pkgNameToLocationHash[fcPkgName]
 
       if (!fcPkgLocation) {
@@ -41,7 +41,7 @@ function resetFcPkgs(pkgNameToLocationHash) {
   }
 }
 
-resetFcPkgs() // deletes all @fullcalendar/* packages
+resetFcPkgs() // deletes all @fullcalendar-lw/* packages
 
 exec.sync(
   'npm install',

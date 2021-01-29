@@ -18,7 +18,6 @@ const PROPS_TO_COPY = [
 exec([ path.join(__dirname, 'require-clean-working-tree.sh') ])
 
 let mainConfig = require('../package.json')
-let premiumConfig = require('../packages-premium/package.json')
 let configPaths = []
 let subjectStructs = publicPackageStructs.concat(bundleStructs)
 
@@ -29,10 +28,6 @@ for (let struct of subjectStructs) {
   for (let propName of PROPS_TO_COPY) {
     if (propName in mainConfig) {
       config[propName] = mainConfig[propName]
-    }
-
-    if (struct.isPremium && (propName in premiumConfig)) {
-      config[propName] = premiumConfig[propName]
     }
   }
 
@@ -47,6 +42,4 @@ for (let configPath of configPaths) {
   )
 }
 
-exec([ 'git', 'commit', '-m', 'updated package.jsons' ], { cwd: path.join(__dirname, '../packages-premium') })
-exec([ 'git', 'add', 'packages-premium' ], { cwd: path.join(__dirname, '..') })
 exec([ 'git', 'commit', '-m', 'updated package.jsons' ], { cwd: path.join(__dirname, '..') })

@@ -10,7 +10,7 @@ import {
   DayCellContent,
   DateProfile,
   createRef,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TableSeg } from './TableSeg'
 import { TableBlockEvent } from './TableBlockEvent'
 import { TableListItemEvent } from './TableListItemEvent'

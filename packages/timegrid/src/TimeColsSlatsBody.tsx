@@ -4,7 +4,7 @@ import {
   RefMap,
   RenderHook,
   SlotLaneContentArg,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TimeColsAxisCell } from './TimeColsAxisCell'
 import { TimeSlatMeta } from './time-slat-meta'
 

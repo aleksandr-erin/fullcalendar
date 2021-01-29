@@ -1,4 +1,4 @@
-import { PointerDragEvent, ElementDragging } from '@fullcalendar/common'
+import { PointerDragEvent, ElementDragging } from '@fullcalendar-lw/common'
 import { PointerDragging } from '../dnd/PointerDragging'
 
 /*

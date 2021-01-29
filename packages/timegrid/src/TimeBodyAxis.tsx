@@ -1,4 +1,4 @@
-import { createElement, BaseComponent } from '@fullcalendar/common'
+import { createElement, BaseComponent } from '@fullcalendar-lw/common'
 import { TimeColsAxisCell } from './TimeColsAxisCell'
 import { TimeSlatMeta } from './time-slat-meta'
 

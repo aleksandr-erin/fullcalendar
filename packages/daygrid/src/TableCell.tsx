@@ -17,7 +17,7 @@ import {
   ViewApi,
   Dictionary,
   MountArg,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TableSeg } from './TableSeg'
 import { TableCellTop } from './TableCellTop'
 

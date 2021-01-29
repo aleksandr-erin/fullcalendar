@@ -1,4 +1,4 @@
-import { Calendar } from '@fullcalendar/core'
+import { Calendar } from '@fullcalendar-lw/core'
 import { ViewWrapper } from './ViewWrapper'
 import { DayGridWrapper } from './DayGridWrapper'
 import { DayHeaderWrapper } from './DayHeaderWrapper'

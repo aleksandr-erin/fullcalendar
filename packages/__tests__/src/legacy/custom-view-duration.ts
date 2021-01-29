@@ -1,5 +1,5 @@
-import frLocale from '@fullcalendar/core/locales/fr'
-import { createPlugin } from '@fullcalendar/core' // View
+import frLocale from '@fullcalendar-lw/core/locales/fr'
+import { createPlugin } from '@fullcalendar-lw/core' // View
 import { DayGridViewWrapper } from '../lib/wrappers/DayGridViewWrapper'
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'
 import { TimeGridViewWrapper } from '../lib/wrappers/TimeGridViewWrapper'

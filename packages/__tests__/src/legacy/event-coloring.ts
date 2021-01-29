@@ -1,4 +1,4 @@
-import { EventInput } from '@fullcalendar/core'
+import { EventInput } from '@fullcalendar-lw/core'
 import { RED_REGEX } from '../lib/dom-misc'
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'
 

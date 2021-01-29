@@ -238,7 +238,7 @@ async function testsIndex() {
 
 function testsIndexWatch() {
   return watch(
-    [ 'packages/__tests__/src', 'packages-premium/__tests__/src' ], // wtf won't globs work for this?
+    [ 'packages/__tests__/src' ], // wtf won't globs work for this?
     exports.testsIndex
   )
 }
@@ -334,13 +334,13 @@ exports.lintBuiltDts = function() {
       anyFailures = true
     }
 
-    if (struct.isPremium && struct.name !== '@fullcalendar/premium-common') {
+    if (struct.isPremium && struct.name !== '@fullcalendar-lw/premium-common') {
       let { stdout: stdout2 } = require('./scripts/lib/shell').sync([
-        'grep', '-e', '@fullcalendar/premium-common', dtsFile
+        'grep', '-e', '@fullcalendar-lw/premium-common', dtsFile
       ])
       stdout2 = stdout2.trim()
       if (!stdout2) {
-        console.warn(`The premium package ${struct.name} does not have @fullcalendar/premium-common reference in .d.ts`)
+        console.warn(`The premium package ${struct.name} does not have @fullcalendar-lw/premium-common reference in .d.ts`)
         anyFailures = true
       }
     }
@@ -374,8 +374,8 @@ exports.lintPackageMeta = function() {
       success = false
     }
 
-    if (meta.dependencies && meta.dependencies['@fullcalendar/core']) {
-      console.warn(`${struct.name} should have @fullcalendar/common as a dep, NOT @fullcalendar/core`)
+    if (meta.dependencies && meta.dependencies['@fullcalendar-lw/core']) {
+      console.warn(`${struct.name} should have @fullcalendar-lw/common as a dep, NOT @fullcalendar-lw/core`)
       success = false
     }
 

@@ -9,7 +9,7 @@ import {
   DateProfile,
   Dictionary,
   Fragment,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 
 interface TableCellTopProps {
   date: DateMarker

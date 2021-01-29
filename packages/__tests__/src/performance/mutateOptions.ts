@@ -1,5 +1,5 @@
-import { Calendar } from '@fullcalendar/core'
-import timeGridPlugin from '@fullcalendar/timegrid'
+import { Calendar } from '@fullcalendar-lw/core'
+import timeGridPlugin from '@fullcalendar-lw/timegrid'
 import { TimeGridViewWrapper } from '../lib/wrappers/TimeGridViewWrapper'
 import { CalendarWrapper } from '../lib/wrappers/CalendarWrapper'
 

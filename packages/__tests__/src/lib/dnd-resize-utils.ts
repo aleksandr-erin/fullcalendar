@@ -1,4 +1,4 @@
-import { parseMarker, addDays } from '@fullcalendar/core'
+import { parseMarker, addDays } from '@fullcalendar-lw/core'
 import { formatIsoDay } from './datelib-utils'
 import { TimeGridViewWrapper } from './wrappers/TimeGridViewWrapper'
 import { DayGridViewWrapper } from './wrappers/DayGridViewWrapper'

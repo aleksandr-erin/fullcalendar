@@ -1,4 +1,4 @@
-import { Rect, ScrollController } from '@fullcalendar/common'
+import { Rect, ScrollController } from '@fullcalendar-lw/common'
 
 /*
 Is a cache for a given element's scroll information (all the info that ScrollController stores)

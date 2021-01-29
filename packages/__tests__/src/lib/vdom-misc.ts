@@ -1,4 +1,4 @@
-import { render, createElement, unmountComponentAtNode } from '@fullcalendar/common'
+import { render, createElement, unmountComponentAtNode } from '@fullcalendar-lw/common'
 
 // render then quickly unrender a vdom node in a real HTML element.
 // causes the given vdom's global handlers to attach.

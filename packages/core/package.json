@@ -1,11 +1,10 @@
 {
-  "name": "@fullcalendar/core",
+  "name": "@fullcalendar-lw/core",
   "version": "5.5.1",
   "title": "FullCalendar Core Package",
   "description": "Provides core functionality, including the Calendar class",
-  "docs": "https://fullcalendar.io/docs/initialize-es6",
   "dependencies": {
-    "@fullcalendar/common": "workspace:~5.5.0",
+    "@fullcalendar-lw/common": "workspace:~5.5.0",
     "preact": "^10.0.5",
     "tslib": "^2.0.3"
   },
@@ -15,12 +14,10 @@
   "jsdelivr": "main.global.min.js",
   "browserGlobal": "FullCalendar",
   "sideEffects": true,
-  "homepage": "https://fullcalendar.io/",
-  "bugs": "https://fullcalendar.io/reporting-bugs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar.git",
-    "homepage": "https://github.com/fullcalendar/fullcalendar"
+    "url": "https://github.com/aleksandr-erin/fullcalendar.git",
+    "homepage": "https://github.com/aleksandr-erin/fullcalendar"
   },
   "license": "MIT",
   "author": {
@@ -29,6 +26,6 @@
     "url": "http://arshaw.com/"
   },
   "devDependencies": {
-    "@fullcalendar/core-preact": "workspace:*"
+    "@fullcalendar-lw/core-preact": "workspace:*"
   }
 }

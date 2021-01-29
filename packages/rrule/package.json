@@ -1,18 +1,17 @@
 {
-  "name": "@fullcalendar/rrule",
+  "name": "@fullcalendar-lw/rrule",
   "version": "5.5.1",
   "title": "FullCalendar RRule Plugin",
   "description": "A connector to the RRule library, for recurring events",
-  "docs": "https://fullcalendar.io/docs/rrule-plugin",
   "dependencies": {
-    "@fullcalendar/common": "workspace:~5.5.0",
+    "@fullcalendar-lw/common": "workspace:~5.5.0",
     "tslib": "^2.0.3"
   },
   "peerDependencies": {
     "rrule": "^2.6.0"
   },
   "devDependencies": {
-    "@fullcalendar/core-preact": "workspace:*",
+    "@fullcalendar-lw/core-preact": "workspace:*",
     "rrule": "^2.6.0"
   },
   "main": "main.cjs.js",
@@ -20,12 +19,10 @@
   "types": "main.d.ts",
   "jsdelivr": "main.global.min.js",
   "browserGlobal": "FullCalendarRRule",
-  "homepage": "https://fullcalendar.io/",
-  "bugs": "https://fullcalendar.io/reporting-bugs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar.git",
-    "homepage": "https://github.com/fullcalendar/fullcalendar"
+    "url": "https://github.com/aleksandr-erin/fullcalendar.git",
+    "homepage": "https://github.com/aleksandr-erin/fullcalendar"
   },
   "license": "MIT",
   "author": {

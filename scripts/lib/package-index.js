@@ -4,7 +4,7 @@ const fs = require('fs')
 
 
 let configPaths = globby.sync([
-  'packages?(-premium)/*/package.json'
+  'packages/*/package.json'
 ])
 
 let packageStructs = exports.packageStructs = configPaths.filter((path) => !isTest(path) && !isBundle(path)).map(buildStruct)
@@ -13,7 +13,7 @@ let testStructs = exports.testStructs = configPaths.filter((path) => isTest(path
 exports.allStructs = packageStructs.concat(bundleStructs, testStructs)
 
 
-exports.publicPackageStructs = packageStructs.filter((struct) => struct.name !== '@fullcalendar/core-preact') // not a good way to do this
+exports.publicPackageStructs = packageStructs.filter((struct) => struct.name !== '@fullcalendar-lw/core-preact') // not a good way to do this
 
 
 function buildStruct(configPath) {
@@ -31,7 +31,6 @@ function buildStruct(configPath) {
   return {
     name: config.name,
     dir,
-    isPremium: dir.match('packages-premium'), // TODO: better
     mainName,
     mainDistJs,
     mainDistDts,

@@ -1,4 +1,4 @@
-import { createElement, ComponentChildren, applyStyle, BaseComponent, DelayedRunner, Ref, setRef, Dictionary } from '@fullcalendar/common'
+import { createElement, ComponentChildren, applyStyle, BaseComponent, DelayedRunner, Ref, setRef, Dictionary } from '@fullcalendar-lw/common'
 
 export interface PopoverProps {
   title: string

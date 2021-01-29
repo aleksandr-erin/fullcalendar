@@ -1,1 +1,1 @@
-export * from '@fullcalendar/core-preact'
+export * from '@fullcalendar-lw/core-preact'

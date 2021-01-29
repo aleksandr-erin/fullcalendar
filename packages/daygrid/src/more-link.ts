@@ -1,4 +1,4 @@
-import { EventApi, ViewApi, VUIEvent } from '@fullcalendar/common'
+import { EventApi, ViewApi, VUIEvent } from '@fullcalendar-lw/common'
 
 export interface EventSegment {
   event: EventApi

@@ -1,4 +1,4 @@
-import { Calendar, CalendarOptions, createPlugin } from '@fullcalendar/core'
+import { Calendar, CalendarOptions, createPlugin } from '@fullcalendar-lw/core'
 import { __assign } from 'tslib'
 import { parseLocalDate, parseUtcDate } from './date-parsing'
 

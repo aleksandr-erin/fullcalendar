@@ -17,7 +17,7 @@ import {
   NowTimer,
   CssDimValue,
   Duration,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TimeCols } from './TimeCols'
 import { TimeSlatMeta } from './time-slat-meta'
 import { TimeColsSlatsCoords } from './TimeColsSlatsCoords'

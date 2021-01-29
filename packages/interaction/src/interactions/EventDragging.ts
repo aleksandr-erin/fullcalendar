@@ -18,7 +18,7 @@ import {
   buildEventApis,
   EventAddArg,
   EventRemoveArg,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { __assign } from 'tslib'
 import { HitDragging, isHitsEqual } from './HitDragging'
 import { FeaturefulElementDragging } from '../dnd/FeaturefulElementDragging'

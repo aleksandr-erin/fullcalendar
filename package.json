@@ -1,21 +1,18 @@
 {
   "private": true,
-  "name": "fullcalendar-workspace",
+  "name": "fullcalendar-lw-workspace",
   "version": "5.5.1",
-  "title": "FullCalendar",
+  "title": "FullCalendar Fork for Customization",
   "description": "Full-sized drag & drop event calendar",
   "keywords": [
     "calendar",
     "event",
     "full-sized"
   ],
-  "homepage": "https://fullcalendar.io/",
-  "docs": "https://fullcalendar.io/docs",
-  "bugs": "https://fullcalendar.io/reporting-bugs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar.git",
-    "homepage": "https://github.com/fullcalendar/fullcalendar"
+    "url": "https://github.com/aleksandr-erin/fullcalendar.git",
+    "homepage": "https://github.com/aleksandr-erin/fullcalendar"
   },
   "license": "MIT",
   "author": {
@@ -26,16 +23,8 @@
   "copyright": "2020 Adam Shaw",
   "workspaces": [
     "packages/*",
-    "packages-premium/*",
     "packages-contrib/*",
-    "packages-contrib/angular/dist/fullcalendar",
-    "example-projects/*",
-    "!example-projects/next",
-    "!example-projects/next-scheduler",
-    "!example-projects/nuxt",
-    "!example-projects/vue-vuex",
-    "!example-projects/vue-typescript",
-    "!example-projects/parcel"
+    "packages-contrib/angular/dist/fullcalendar"
   ],
   "resolutions": {
     "karma": "patch:karma@~5.2.3#./scripts/karma-patch/patch.diff"

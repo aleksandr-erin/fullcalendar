@@ -1,4 +1,4 @@
-import { addDays } from '@fullcalendar/core'
+import { addDays } from '@fullcalendar-lw/core'
 import { removeLtrCharCodes } from '../lib/string'
 import { parseUtcDate } from '../lib/date-parsing'
 import { DayGridViewWrapper } from '../lib/wrappers/DayGridViewWrapper'

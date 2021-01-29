@@ -1,7 +1,7 @@
 import {
   DateMarker, BaseComponent, createElement,
   DateRange, DayCellContent, DateProfile,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 
 export interface TimeColMiscProps { // should be given nowDate too??
   dateProfile: DateProfile

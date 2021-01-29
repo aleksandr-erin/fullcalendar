@@ -1,5 +1,5 @@
 import * as ICAL from 'ical.js'
-import { createPlugin, EventSourceDef, EventInput, addDays, DateRange } from '@fullcalendar/common'
+import { createPlugin, EventSourceDef, EventInput, addDays, DateRange } from '@fullcalendar-lw/common'
 
 type Success = (rawFeed: string, xhr: XMLHttpRequest) => void
 type Failure = (error: string, xhr: XMLHttpRequest) => void

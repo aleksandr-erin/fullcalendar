@@ -12,7 +12,7 @@ import {
   CssDimValue,
   Hit,
   DateProfile,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { Table } from './Table'
 import { DayTableSlicer } from './DayTableSlicer'
 

@@ -11,8 +11,8 @@ import {
   DateRange,
   NowIndicatorRoot,
   DateProfile,
-} from '@fullcalendar/common'
-import { TableCellModel } from '@fullcalendar/daygrid' // TODO: good to use this interface?
+} from '@fullcalendar-lw/common'
+import { TableCellModel } from '@fullcalendar-lw/daygrid' // TODO: good to use this interface?
 import { TimeColsSeg, splitSegsByCol, splitInteractionByCol } from './TimeColsSeg'
 import { TimeColsSlatsCoords } from './TimeColsSlatsCoords'
 import { TimeCol } from './TimeCol'

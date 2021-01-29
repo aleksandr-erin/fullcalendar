@@ -14,8 +14,8 @@ import {
   DateRange,
   Duration,
   DateProfile,
-} from '@fullcalendar/common'
-import { TableCellModel } from '@fullcalendar/daygrid' // TODO: good to use this interface?
+} from '@fullcalendar-lw/common'
+import { TableCellModel } from '@fullcalendar-lw/daygrid' // TODO: good to use this interface?
 import { TimeColsSlats } from './TimeColsSlats'
 import { TimeSlatMeta } from './time-slat-meta'
 import { TimeColsContent } from './TimeColsContent'

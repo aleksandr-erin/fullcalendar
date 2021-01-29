@@ -1,14 +1,14 @@
 
 # FullCalendar Standard Bundle
 
-FullCalendar is a full-sized drag & drop event calendar. This packages is an easily consumable combination of standard plugins. It makes the root namespace available as the `FullCalendar` browser global. [View the docs &raquo;](https://fullcalendar.io/docs/getting-started)
+FullCalendar is a full-sized drag & drop event calendar. This packages is an easily consumable combination of standard plugins. It makes the root namespace available as the `FullCalendar` browser global. [View the docs of origin FullCalendar &raquo;](https://fullcalendar.io/docs/getting-started)
 
-This `fullcalendar` package bundles together these plugins:
+This `fullcalendar-lw` package bundles together these plugins:
 
-- [@fullcalendar/core](https://www.npmjs.com/package/@fullcalendar/core)
-- [@fullcalendar/interaction](https://www.npmjs.com/package/@fullcalendar/interaction)
-- [@fullcalendar/daygrid](https://www.npmjs.com/package/@fullcalendar/daygrid)
-- [@fullcalendar/timegrid](https://www.npmjs.com/package/@fullcalendar/timegrid)
-- [@fullcalendar/list](https://www.npmjs.com/package/@fullcalendar/list)
-- [@fullcalendar/bootstrap](https://www.npmjs.com/package/@fullcalendar/bootstrap)
-- [@fullcalendar/google-calendar](https://www.npmjs.com/package/@fullcalendar/google-calendar)
+- [@fullcalendar-lw/core](https://www.npmjs.com/package/@fullcalendar-lw/core)
+- [@fullcalendar-lw/interaction](https://www.npmjs.com/package/@fullcalendar-lw/interaction)
+- [@fullcalendar-lw/daygrid](https://www.npmjs.com/package/@fullcalendar-lw/daygrid)
+- [@fullcalendar-lw/timegrid](https://www.npmjs.com/package/@fullcalendar-lw/timegrid)
+- [@fullcalendar-lw/list](https://www.npmjs.com/package/@fullcalendar-lw/list)
+- [@fullcalendar-lw/bootstrap](https://www.npmjs.com/package/@fullcalendar-lw/bootstrap)
+- [@fullcalendar-lw/google-calendar](https://www.npmjs.com/package/@fullcalendar-lw/google-calendar)

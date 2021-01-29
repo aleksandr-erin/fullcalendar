@@ -1,4 +1,4 @@
-import { LocaleInput } from '@fullcalendar/common'
+import { LocaleInput } from '@fullcalendar-lw/common'
 
 export default {
   code: 'lv',

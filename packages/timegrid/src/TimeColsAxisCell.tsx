@@ -5,7 +5,7 @@ import {
   ViewContextType,
   RenderHook,
   SlotLabelContentArg,
-} from '@fullcalendar/common'
+} from '@fullcalendar-lw/common'
 import { TimeSlatMeta } from './time-slat-meta'
 
 const DEFAULT_SLAT_LABEL_FORMAT = createFormatter({
